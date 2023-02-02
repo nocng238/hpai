@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon",
     "dev:tsc": "tsc --watch -p .",
         "dev:serve": "nodemon -e js -w lib src/main.js",
         "dev": "run-p dev:*"
